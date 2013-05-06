@@ -8,7 +8,7 @@ public class Sample {
   for(int i=0; i<10; i++) { 
    aList.add("Test " + i);
   }
-  System.out.println(aList.size());
+  System.out.println(aList.size() + " Size: ");
   System.out.println(".....Program Ends Here.....");
  }
 }
