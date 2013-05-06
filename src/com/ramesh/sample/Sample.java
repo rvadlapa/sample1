@@ -9,7 +9,6 @@ public class Sample {
    aList.add("Test " + i);
   }
   System.out.println(aList.size() + " Size: ");
-  System.out.println(aList.size() + " Size: ");
   System.out.println(".....Program Ends Here.....");
  }
 }
