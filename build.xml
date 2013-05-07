@@ -27,6 +27,7 @@
 
     <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
     <jar jarfile="${dist}/lib/Sample-${DSTAMP}.jar" basedir="${build}"/>
+    <copy file="./jsp/jenkins.jsp" todir="${dist}/jsp/"/>
       </target>
 
   <target name="clean"
