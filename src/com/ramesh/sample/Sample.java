@@ -11,4 +11,8 @@ public class Sample {
   System.out.println(aList.size() + " Size: ");
   System.out.println(".....Program Ends Here.....");
  }
+
+ public String callMe() { 
+  return "whatever!";
+ }
 }
