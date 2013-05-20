@@ -15,4 +15,8 @@ public class Sample {
  public String callMe() { 
   return "I was called....once more";
  }
+
+ public String callMeAgain() {
+  return " I was called Again!";
+ }
 }
